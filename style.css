@@ -9,6 +9,7 @@
     --color-pal6: #CCD0CF;
 
     --color-accent: #75abd5;
+    --color-colorless: #05080a;
 }
 
 
@@ -119,5 +120,22 @@ body {
             font-size: 12px;
             font-weight: 200;
         }
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--color-colorless);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    p {
+        color: var(--color-pal4);
+        font-weight: 300;
     }
 }
