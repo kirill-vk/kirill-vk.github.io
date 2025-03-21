@@ -124,11 +124,11 @@ body {
 }
 
 @keyframes animatedGradientColorFrames {
-    0% {filter: saturate(1%), invert(100%);}
-    10% {filter: saturate(100%), invert(50%);}
-    25% {filter: saturate(150%);}
-    35% {filter: saturate(50%), invert(50%);}
-    100% {filter: saturate(1%), invert(100%);}
+    0% {filter: saturate(100%);}
+    25% {filter: saturate(200%);}
+    50% {filter: saturate(150%) grayscale(35%);}
+    75% {filter: saturate(150%) grayscale(0%);}
+    100% {filter: saturate(100%);}
 }
 .animatedGradientColor {
     animation-name: animatedGradientColorFrames;
