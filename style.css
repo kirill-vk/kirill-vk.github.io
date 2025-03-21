@@ -15,7 +15,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(var(--color-pal1), var(--color-pal2));
+    background: linear-gradient(var(--color-pal1), var(--color-pal2), var(--color-pal1));
 
     font-family: 'Oswald';
     p {
@@ -124,15 +124,15 @@ body {
 }
 
 @keyframes animatedGradientColorFrames {
-    0%   {filter: invert(67%) sepia(59%) saturate(373%) hue-rotate(173deg) brightness(89%) contrast(86%);}
-    50%  {filter: invert(84%) sepia(32%) saturate(3409%) hue-rotate(176deg) brightness(87%) contrast(96%);}
-    100% {filter: invert(67%) sepia(59%) saturate(373%) hue-rotate(173deg) brightness(89%) contrast(86%);}
+    0% {filter: saturate(1%), invert(100%);}
+    10% {filter: saturate(100%), invert(50%);}
+    25% {filter: saturate(150%);}
+    35% {filter: saturate(50%), invert(50%);}
+    100% {filter: saturate(1%), invert(100%);}
 }
 .animatedGradientColor {
-    filter: invert(67%) sepia(59%) saturate(373%) hue-rotate(173deg) brightness(89%) contrast(86%);
-
     animation-name: animatedGradientColorFrames;
-    animation-duration: 64s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
