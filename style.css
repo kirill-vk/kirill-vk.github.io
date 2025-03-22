@@ -126,15 +126,17 @@ body {
 }
 
 @keyframes animatedGradientColorFrames {
-    0% {filter: saturate(100%);}
-    25% {filter: saturate(200%);}
-    50% {filter: saturate(150%) grayscale(35%);}
-    75% {filter: saturate(150%) grayscale(0%);}
-    100% {filter: saturate(100%);}
+    0% {filter: saturate(100%) contrast(100%);}
+    10% {filter: saturate(200%) contrast(100%);}
+    25% {filter: saturate(150%) contrast(125%);}
+    35% {filter: saturate(150%) contrast(150%);}
+    50% {filter: saturate(125%) contrast(170%);}
+    75% {filter: saturate(100%) contrast(125%);}
+    100% {filter: saturate(100%) contrast(100%);}
 }
 .animatedGradientColor {
     animation-name: animatedGradientColorFrames;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
