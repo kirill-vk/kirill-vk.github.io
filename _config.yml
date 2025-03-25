@@ -13,10 +13,10 @@ collections:
     output          : true
 
 languages: ["en", "ru"]
-exclude_from_localizations: ["assets", "CNAME"]
+exclude_from_localizations: ["javascript", "images", "css"]
 defaultLang: en
 languageNames:
-  de: Deutsch
+  ru: Русский
   en: English
 
 # Handling Reading
