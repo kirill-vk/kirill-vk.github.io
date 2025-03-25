@@ -2,17 +2,17 @@ site:
   title: kirya
 
 aboutme:
-  maintitle: Hi! My name is
-  maintitle_mark: Kirill
-  creating: I like
-  creating_mark: creating
-  creating_aftermark: stuff
-  socials: Follow my
-  socials_mark: socials
+  maintitle: Привет! Меня звать
+  maintitle_mark: Кирилл
+  creating: Мне нравится
+  creating_mark: делать
+  creating_aftermark: всякие штуки
+  socials: Взгляни на мои
+  socials_mark: соцсети
   hobbycard:
-    programming: Programming
-    pc: PC Building
-    video: Videomaking
+    programming: Программирование
+    pc: Сборка ПК
+    video: Видео
 
 aboutme-content:
   main: whatever
