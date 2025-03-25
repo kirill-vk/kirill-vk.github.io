@@ -1,0 +1,13 @@
+main:
+  aboutme:
+    maintitle: Hi! My name is
+    maintitle_mark: Kirill
+    creating: I like
+    creating_mark: creating
+    creating_aftermark: stuff
+    socials: Follow my
+    socials_mark: socials
+  hobbycard:
+    programming: Programming
+    pc: PC Building
+    video: Videomaking

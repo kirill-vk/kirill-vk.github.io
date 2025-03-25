@@ -1,5 +1,10 @@
+---
+layout: page
+title: index
+---
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang }}">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>kirya</title>
+    <title>{% t foobar.test %}</title>
 </head>
 
 <body>
@@ -26,7 +31,7 @@
 
     <div class="content">
         <div class="left contentSide">
-            <p class="contentTitle">Hi! My name is <mark>Kirill</mark></p>
+            <p class="contentTitle">{% t main.aboutme.maintitle %} <mark>{% t main.aboutme.maintitle_mark %}</mark></p>
             <p class="contentText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum eaque voluptate saepe
                 impedit excepturi magni dignissimos ratione voluptas enim, eligendi aspernatur? Odio ipsa voluptatum
                 atque cumque quibusdam dolorum, aliquid veniam?</p>
@@ -39,26 +44,26 @@
     </div>
 
     <div class="content" style="background-color: var(--color-pal2); flex-direction: column;">
-        <p class="contentTitle">I like <mark>creating</mark> stuff</p>
+        <p class="contentTitle">{% t main.aboutme.creating %} <mark>{% t main.aboutme.creating_mark %}</mark> {% t main.aboutme.creating_aftermark %}</p>
         <p class="contentText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero quos itaque qu
         </p>
         <div class="cardCollection">
 
             <div class="card">
                 <img class="titleImage animatedGradientColor" src="assets/images/hobby-logo1.png" alt="programming">
-                <p>Programming</p>
+                <p>{% t main.hobbycard.programming %}</p>
                 <p class="tooltip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam, et quos
                     natus voluptas molestiae </p>
             </div>
             <div class="card">
                 <img class="titleImage animatedGradientColor" src="assets/images/hobby-logo2.png" alt="gamemaking">
-                <p>PC Building</p>
+                <p>{% t main.hobbycard.pc %}</p>
                 <p class="tooltip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam, et quos
                     natus voluptas molestiae </p>
             </div>
             <div class="card">
                 <img class="titleImage animatedGradientColor" src="assets/images/hobby-logo3.png" alt="video">
-                <p>Videomaking</p>
+                <p>{% t main.hobbycard.video %}</p>
                 <p class="tooltip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam, et quos
                     natus voluptas molestiae </p>
             </div>
@@ -72,7 +77,7 @@
             <img class="contentImg animatedGradientColor" src="assets/images/socials.png" alt="my socials">
         </div>
         <div class="right contentSide">
-            <p class="contentTitle">Follow my <mark>socials</mark></p>
+            <p class="contentTitle">{% t main.aboutme.socials %} <mark>{% t main.aboutme.socials_mark %}</mark></p>
             <p class="contentText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum eaque voluptate saepe
                 impedit excepturi magni dignissimos ratione voluptas enim, eligendi aspernatur? Odio ipsa voluptatum
                 atque cumque quibusdam dolorum, aliquid veniam?</p>

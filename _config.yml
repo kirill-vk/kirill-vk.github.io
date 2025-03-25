@@ -12,6 +12,13 @@ collections:
   posts:
     output          : true
 
+languages: ["en", "ru"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  de: Deutsch
+  en: English
+
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
@@ -29,7 +36,8 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : []
+plugins:
+  - jekyll-multiple-languages-plugin
 
 # Conversion
 markdown            : kramdown
