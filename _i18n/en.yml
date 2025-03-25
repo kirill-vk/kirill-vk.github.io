@@ -1,17 +1,23 @@
-main:
-  aboutme:
-    maintitle: Hi! My name is
-    maintitle_mark: Kirill
-    creating: I like
-    creating_mark: creating
-    creating_aftermark: stuff
-    socials: Follow my
-    socials_mark: socials
+site:
+  title: kirya
+
+aboutme:
+  maintitle: Hi! My name is
+  maintitle_mark: Kirill
+  creating: I like
+  creating_mark: creating
+  creating_aftermark: stuff
+  socials: Follow my
+  socials_mark: socials
   hobbycard:
     programming: Programming
     pc: PC Building
     video: Videomaking
 
-
-foobar:
-  test: "lol"
+aboutme-content:
+  main: whatever
+  creating: whatever
+  hobby1: whatever
+  hobby2: whatever
+  hobby3: whatever
+  socials: whatever
