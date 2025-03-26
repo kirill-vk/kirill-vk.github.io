@@ -19,15 +19,7 @@ title: index
 </head>
 
 <body style="background: linear-gradient(var(--color-pal1), var(--color-pal2), var(--color-pal1));">
-    <div class="header">
-        <div class="left">
-            <img class="logo" src="assets/images/sign.png" alt="logo">
-        </div>
-        <div class="right">
-            <a href="index.html">About</a>
-            <a href="">Socials</a>
-        </div>
-    </div>
+    {% include header.html %}
 
     <div class="content">
         <div class="left contentSide">
@@ -77,9 +69,7 @@ title: index
         </div>
     </div>
 
-    <div class="footer">
-        <p>static website made by kirya, powered by github pages</p>
-    </div>
+    {% include footer.html %}
 </body>
 
 </html>
