@@ -16,7 +16,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(var(--color-pal1), var(--color-pal2), var(--color-pal1));
+    background-color: var(--color-pal1);
 
     font-family: 'Oswald';
     p {
