@@ -15,9 +15,9 @@ aboutme:
     video: Videomaking
 
 aboutme-content:
-  main: whatever
-  creating: whatever
-  hobby1: whatever
-  hobby2: whatever
-  hobby3: whatever
-  socials: whatever
+  main: Welcome to my personal webpage! Here you can find general info about me and what i'm up to. Blog coming soon, so stay tuned! 
+  creating: I have some hobbies where I'm proficient in, those include...
+  hobby1: Lua/C#. Mostly it's gamedev-related. Small games, mods, programms and other stuff.
+  hobby2: Choosing parts, assembling, tweaking - I love that! And also DIY modding.
+  hobby3: Always wanted to make videos. I have experience editing in Adobe Premiere, kdenlive.
+  socials: Check out my socials! If you want to contact me, use email or discord.
