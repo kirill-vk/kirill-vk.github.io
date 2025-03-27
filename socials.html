@@ -16,6 +16,26 @@ requires-stickyfooter: true
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script>
+        function copyToClipboard(elementId) {
+            console.log("copied ", elementId)
+
+            var copyText = ""
+            switch (elementId) {
+                case "discord":
+                    copyText = "scriptydude"
+                    break;
+                case "email":
+                    copyText = "kiryhamsg@tutamail.com"
+                default:
+                    break;
+            }
+
+            navigator.clipboard.writeText(copyText)
+            alert("copied " + elementId + " to clipboard!")
+        }
+    </script>
+
     <title>{% t site.title %}</title>
 </head>
 
@@ -34,8 +54,8 @@ requires-stickyfooter: true
         </div>
         <p class="contentTitle">{% t social.titleContact %}</p>
         <div class="cardCollection">
-            <img class="smallImageContact" src="assets/images/discord.png" alt="discord">
-            <img class="smallImageContact" src="assets/images/email.png" alt="email">
+            <img class="smallImageContact" src="assets/images/discord.png" alt="discord" onclick="copyToClipboard('discord')">
+            <img class="smallImageContact" src="assets/images/email.png" alt="email" onclick="copyToClipboard('email')">
         </div>
     </div>
 
