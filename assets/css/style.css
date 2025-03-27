@@ -173,9 +173,16 @@ body {
     align-content: center;
     flex-wrap: wrap;
 
-    p {
+    p, a {
         color: var(--color-pal4);
         font-weight: 300;
+
+        padding: 16px;
+        margin-left: 32px;
+    }
+
+    mark {
+        text-decoration: underline;
     }
 }
 
