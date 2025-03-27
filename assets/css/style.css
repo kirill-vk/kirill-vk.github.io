@@ -19,6 +19,7 @@ body {
     background-color: var(--color-pal1);
 
     font-family: 'Oswald';
+
     p {
         color: var(--color-pal6);
         font-weight: bold;
@@ -111,7 +112,7 @@ body {
             width: 92%;
             padding: 5%;
         }
-        
+
         p {
             text-align: center;
             padding: 0;
@@ -126,14 +127,35 @@ body {
 }
 
 @keyframes animatedGradientColorFrames {
-    0% {filter: saturate(100%) contrast(100%);}
-    10% {filter: saturate(200%) contrast(100%);}
-    25% {filter: saturate(150%) contrast(125%);}
-    35% {filter: saturate(150%) contrast(150%);}
-    50% {filter: saturate(125%) contrast(170%);}
-    75% {filter: saturate(100%) contrast(125%);}
-    100% {filter: saturate(100%) contrast(100%);}
+    0% {
+        filter: saturate(100%) contrast(100%);
+    }
+
+    10% {
+        filter: saturate(200%) contrast(100%);
+    }
+
+    25% {
+        filter: saturate(150%) contrast(125%);
+    }
+
+    35% {
+        filter: saturate(150%) contrast(150%);
+    }
+
+    50% {
+        filter: saturate(125%) contrast(170%);
+    }
+
+    75% {
+        filter: saturate(100%) contrast(125%);
+    }
+
+    100% {
+        filter: saturate(100%) contrast(100%);
+    }
 }
+
 .animatedGradientColor {
     animation-name: animatedGradientColorFrames;
     animation-duration: 6s;
@@ -141,10 +163,6 @@ body {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    
     width: 100%;
     background-color: var(--color-colorless);
 
@@ -159,4 +177,10 @@ body {
         color: var(--color-pal4);
         font-weight: 300;
     }
+}
+
+.stickyFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
