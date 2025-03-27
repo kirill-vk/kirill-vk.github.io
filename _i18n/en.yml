@@ -21,3 +21,7 @@ aboutme-content:
   hobby2: Choosing parts, assembling, tweaking - I love that! And also DIY modding.
   hobby3: Always wanted to make videos. I have experience editing in Adobe Premiere, kdenlive.
   socials: Check out my socials! If you want to contact me, use email or discord.
+
+social:
+  titlePublic: "My socials"
+  titleContact: "Contact me"

@@ -191,3 +191,11 @@ body {
     left: 0;
     bottom: 0;
 }
+
+.smallImageContact {
+    width: 64px;
+    height: 64px;
+    margin-right: 32px;
+
+    filter: brightness(0) saturate(100%) invert(65%) sepia(72%) saturate(237%) hue-rotate(165deg) brightness(87%) contrast(92%);
+}

@@ -22,8 +22,17 @@ requires-stickyfooter: true
 <body>
     {% include header.html %}
 
-    <div class="content">
-        <p class="contentTitle">FOOBAR FIZZBUZZBAZZ</p>
+    <div class="content" style="flex-direction: column;">
+        <p class="contentTitle">{% t social.titlePublic %}</p>
+        <div class="cardCollection">
+            <img class="smallImageContact" src="assets/images/yt.png" alt="discord">
+            <img class="smallImageContact" src="assets/images/gh.png" alt="github">
+        </div>
+        <p class="contentTitle">{% t social.titleContact %}</p>
+        <div class="cardCollection">
+            <img class="smallImageContact" src="assets/images/discord.png" alt="discord">
+            <img class="smallImageContact" src="assets/images/email.png" alt="email">
+        </div>
     </div>
 
     {% include footer.html %}
