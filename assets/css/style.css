@@ -84,11 +84,51 @@ body {
         color: var(--color-pal5);
         line-height: 150%;
         font-size: 20px;
+
+        @media only screen and (max-width: 600px) {
+            text-align: center;
+        }
     }
 
     .contentSide {
         width: 25%;
         margin: 24px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        display: block;
+
+        .contentSide {
+            width: 85%;
+        }
+
+        .contentImg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .suitGradient {
+            width: 100%;
+            height: 100%;
+        }
+    }  
+
+    .suitParent {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .suitGradient {
+        position: absolute;
+        left: 0%;
+        top: -1%;
+    }
+
+    .suitBg {
+        position: relative;
+        top: 0;
+        left: 0;
     }
 }
 
@@ -96,6 +136,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+
+        .socialCollection {
+            flex-direction: column;
+        }
+    }
 
     .card {
         width: 150px;
@@ -124,6 +175,8 @@ body {
             font-weight: 200;
         }
     }
+
+    
 }
 
 @keyframes animatedGradientColorFrames {
@@ -196,6 +249,7 @@ body {
     width: 64px;
     height: 64px;
     margin-right: 32px;
+    margin-bottom: 6px;
 
     filter: brightness(0) saturate(100%) invert(65%) sepia(72%) saturate(237%) hue-rotate(165deg) brightness(87%) contrast(92%);
 }
